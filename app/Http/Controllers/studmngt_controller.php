@@ -25,7 +25,7 @@ class studmngt_controller extends Controller
         $request->validate([
             'fname' => 'required|max:255',
             'lname' => 'required|max:255',
-            'midname' => 'required|max:255',
+            'mname' => 'required|max:255',
             'add' => 'required|max:255',
             'dob' => 'required|date',
         ]);

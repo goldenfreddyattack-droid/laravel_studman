@@ -47,7 +47,7 @@
             <td>{{ $student->id }}</td>
             <td>{{ $student->fname }}</td>
             <td>{{ $student->lname }}</td>
-            <td>{{ $student->midname }}</td>
+            <td>{{ $student->mname }}</td>
             <td>{{ $student->add }}</td>
             <td>{{ $student->dob }}</td>
         </tr>

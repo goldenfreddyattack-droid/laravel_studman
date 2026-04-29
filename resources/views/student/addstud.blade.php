@@ -55,7 +55,7 @@
 
                         <div class="form-group col-12">
                           <label for="exampleInputEmail1">Address</label>
-                          <input type="text" class="form-control" id="address" name="add" placeholder="Enter Address">
+                          <input type="text" class="form-control" id="add" name="add" placeholder="Enter Address">
                         </div>
                           @error('address') <span class="text-danger">{{$message}}</span> @enderror
 
